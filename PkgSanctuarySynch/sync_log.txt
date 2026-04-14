@@ -1,0 +1,72 @@
+2026-01-24 11:41:30,568 [ERROR] credentials.json not found! Please download it from Google Cloud Console.
+2026-01-24 11:56:03,860 [ERROR] credentials.json not found! Please download it from Google Cloud Console.
+2026-01-24 12:02:33,272 [INFO] "GET /?state=4lVIGW9FvMcgCrjH1iVN89hReOn1B9&code=4/0ASc3gC2KTjW8Ny_Yl8TiccC87QUnLebUu1t7CTBXNPW_bRzaKx6TJIe1DHZYz1v3uabg8g&scope=https://www.googleapis.com/auth/drive HTTP/1.1" 200 65
+2026-01-24 12:02:33,807 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:02:33,811 [INFO] --- STARTING HOME MODE (UPLOAD) ---
+2026-01-24 12:02:34,275 [ERROR] An critical error occurred during sync.
+Traceback (most recent call last):
+  File "C:\sandbox\SanctuarySync\PkgSanctuarySynch\sanctuary_sync.py", line 288, in <module>
+    run_home_mode(service)
+    ~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\sandbox\SanctuarySync\PkgSanctuarySynch\sanctuary_sync.py", line 205, in run_home_mode
+    config_folder_id = ensure_folder_exists(service, "OBS_Config_Backups", DRIVE_ROOT_ID)
+  File "C:\sandbox\SanctuarySync\PkgSanctuarySynch\sanctuary_sync.py", line 92, in ensure_folder_exists
+    results = service.files().list(q=query, spaces='drive', fields='files(id, name)').execute()
+  File "C:\sandbox\SanctuarySync\.venv\Lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\sandbox\SanctuarySync\.venv\Lib\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files?q=mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+name%3D%27OBS_Config_Backups%27+and+%271AbC_Example_ID_From_Google_Drive%27+in+parents+and+trashed%3Dfalse&spaces=drive&fields=files%28id%2C+name%29&alt=json returned "File not found: .". Details: "[{'message': 'File not found: .', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-01-24 12:02:46,278 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:02:46,282 [INFO] --- STARTING HOME MODE (UPLOAD) ---
+2026-01-24 12:02:46,772 [ERROR] An critical error occurred during sync.
+Traceback (most recent call last):
+  File "C:\sandbox\SanctuarySync\PkgSanctuarySynch\sanctuary_sync.py", line 288, in <module>
+    run_home_mode(service)
+    ~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\sandbox\SanctuarySync\PkgSanctuarySynch\sanctuary_sync.py", line 205, in run_home_mode
+    config_folder_id = ensure_folder_exists(service, "OBS_Config_Backups", DRIVE_ROOT_ID)
+  File "C:\sandbox\SanctuarySync\PkgSanctuarySynch\sanctuary_sync.py", line 92, in ensure_folder_exists
+    results = service.files().list(q=query, spaces='drive', fields='files(id, name)').execute()
+  File "C:\sandbox\SanctuarySync\.venv\Lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\sandbox\SanctuarySync\.venv\Lib\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files?q=mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+name%3D%27OBS_Config_Backups%27+and+%271AbC_Example_ID_From_Google_Drive%27+in+parents+and+trashed%3Dfalse&spaces=drive&fields=files%28id%2C+name%29&alt=json returned "File not found: .". Details: "[{'message': 'File not found: .', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-01-24 12:12:15,806 - INFO - Initiating Sync. Mode: HOME
+2026-01-24 12:12:28,254 - INFO - "GET /?state=lQFqhmrGjebxoRw7Qte2vdq1c0TsSG&code=4/0ASc3gC11np0gmGSNzXipBxWU3Kq5wjG37GYSKlDDFj3cnRR7PgkXfr5tUf62I8Z4SYkI1w&scope=https://www.googleapis.com/auth/drive HTTP/1.1" 200 65
+2026-01-24 12:12:28,793 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:12:29,276 - INFO - Successfully connected to Drive Folder ID: 1DMJsAQKJx17iF3vSkjDMKlJRsetzQZed
+2026-01-24 12:12:29,276 - INFO - --- Starting HOME Mode (Upload) ---
+2026-01-24 12:12:29,281 - INFO - Created local backup: C:\sandbox\SanctuarySync\PkgSanctuarySynch\OBS_Config_Backup_20260124_121229.zip
+2026-01-24 12:12:31,745 - INFO - Uploaded new file to Drive: OBS_Config_Backup_20260124_121229.zip
+2026-01-24 12:12:31,746 - WARNING - Local Assets folder not found: C:\ChurchMedia\Assets
+2026-01-24 12:12:31,746 - INFO - Sync Operation Finished.
+2026-01-24 12:38:36,780 - INFO - Application started. Ready to sync.
+2026-01-24 12:38:45,680 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:38:45,683 - INFO - Fetching remote file list for comparison...
+2026-01-24 12:38:46,294 - ERROR - Local asset path does not exist.
+2026-01-24 12:38:52,457 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:38:52,459 - INFO - Querying Drive for available backups...
+2026-01-24 12:38:53,124 - INFO - No backups found on Drive.
+2026-01-24 12:38:59,487 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:38:59,489 - INFO - Zipping OBS configuration...
+2026-01-24 12:38:59,491 - INFO - Uploading OBS_Config_20260124_123859.zip to Drive...
+2026-01-24 12:39:01,477 - ERROR - Upload process failed: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\sandbox\\SanctuarySync\\PkgSanctuarySynch\\OBS_Config_20260124_123859.zip'
+2026-01-24 12:39:22,399 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:39:22,410 - INFO - Zipping OBS configuration...
+2026-01-24 12:39:22,412 - INFO - Uploading OBS_Config_20260124_123922.zip to Drive...
+2026-01-24 12:39:24,389 - ERROR - Upload process failed: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\sandbox\\SanctuarySync\\PkgSanctuarySynch\\OBS_Config_20260124_123922.zip'
+2026-01-24 12:40:54,260 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:40:54,262 - INFO - Zipping OBS configuration...
+2026-01-24 12:40:54,263 - INFO - Uploading OBS_Config_20260124_124054.zip to Drive...
+2026-01-24 12:40:56,165 - ERROR - Upload process failed: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\sandbox\\SanctuarySync\\PkgSanctuarySynch\\OBS_Config_20260124_124054.zip'
+2026-01-24 12:41:16,823 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:41:16,825 - INFO - Zipping OBS configuration...
+2026-01-24 12:41:16,827 - INFO - Uploading OBS_Config_20260124_124116.zip to Drive...
+2026-01-24 12:41:19,050 - ERROR - Upload process failed: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\sandbox\\SanctuarySync\\PkgSanctuarySynch\\OBS_Config_20260124_124116.zip'
+2026-01-24 12:42:08,631 - INFO - Application started. Ready to sync.
+2026-01-24 12:42:10,271 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-24 12:42:10,273 - INFO - Zipping OBS configuration...
+2026-01-24 12:42:10,275 - INFO - Uploading OBS_Config_20260124_124210.zip to Drive...
+2026-01-24 12:42:11,969 - ERROR - Upload process failed: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\sandbox\\SanctuarySync\\PkgSanctuarySynch\\OBS_Config_20260124_124210.zip'
