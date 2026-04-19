@@ -1,0 +1,47 @@
+name,type,parent,x,y,width,height,text,font,font_size,font_color,file_path
+CameraScene,scene,,0,0,1920,1080,,,,,
+CameraMain,image,CameraScene,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\camera_main.jpg
+CameraPulpit,image,CameraScene,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\camera_pulpit.jpg
+CameraChoir,image,CameraScene,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\camera_choir.jpg
+AudioScene,scene,,0,0,1920,1080,,,,,
+AudioBG,image,AudioScene,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\prelude_bg.jpg
+AudioLabel,title,AudioScene,760,490,400,100,Audio Only,Arial,48,#888888,
+EmergencySlides,scene,,0,0,1920,1080,,,,,
+BRBSlide,image,EmergencySlides,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\emergency\brb.jpg
+ServiceInterruptedSlide,image,EmergencySlides,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\emergency\service_interrupted.jpg
+TechnicalDifficultiesSlide,image,EmergencySlides,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\emergency\technical_difficulties.jpg
+PreService,scene,,0,0,1920,1080,,,,,
+PreServiceBG,image,PreService,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\preservice_bg.jpg
+CountdownTitle,title,PreService,360,180,1200,160,Service Begins Soon,Arial,96,#FFFFFF,
+PreServiceSlides,slideshow,PreService,160,400,1600,520,,,,,
+Slide_Welcome,image,PreServiceSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\slides\slide_welcome.jpg
+Slide_Events,image,PreServiceSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\slides\slide_events.jpg
+Slide_Giving,image,PreServiceSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\slides\slide_giving.jpg
+PreServiceInfoBar,scrollText,PreService,0,1010,1920,70,Welcome to Sunday Worship - Service begins at 10:00 AM - Please silence your mobile devices,Arial,28,#FFFF00,
+Prelude,scene,,0,0,1920,1080,,,,,
+PreludeBG,image,Prelude,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\prelude_bg.jpg
+PreludeTitle,title,Prelude,100,30,1720,140,Sunday Morning Worship,Arial,80,#FFFFFF,
+PreludeSubtitle,title,Prelude,100,200,1720,100,April 20 2026,Arial,56,#CCCCCC,
+PreludeInfoBar,scrollText,Prelude,0,1010,1920,70,Please silence your mobile devices - Nursery available in Room 104 - Welcome visitors!,Arial,28,#FFFFFF,
+MainWorship,scene,,0,0,1920,1080,,,,,
+MainBG,image,MainWorship,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\background.jpg
+ServiceTitle,title,MainWorship,100,30,1720,120,Sunday Morning Worship,Arial,72,#FFFFFF,
+SpeakerArea,group,MainWorship,0,380,960,680,,,,,
+CameraFeed,image,SpeakerArea,0,0,960,540,,,,,C:\sandbox\SanctuarySync\media\camera_placeholder.jpg
+SpeakerName,title,SpeakerArea,20,560,920,80,Pastor John Smith,Arial,40,#FFFF00,
+AnnSlide_Welcome,image,AnnouncementSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\slides\slide_welcome.jpg
+AnnSlide_Events,image,AnnouncementSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\slides\slide_events.jpg
+AnnSlide_Giving,image,AnnouncementSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\slides\slide_giving.jpg
+NewsTicker,scrollText,MainWorship,0,1010,1920,70,Welcome to CLC Sunday Worship - Visit clc.org for upcoming events - Online giving available,Arial,32,#FFFFFF,
+ScriptureScene,scene,,0,0,1920,1080,,,,,
+ScriptureBG,image,ScriptureScene,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\parchment_bg.jpg
+VerseText,title,ScriptureScene,160,180,1600,640,For God so loved the world that he gave his one and only Son.,Georgia,54,#2C1810,
+VerseRef,title,ScriptureScene,160,840,1600,80,John 3:16 (NIV),Georgia,40,#5C3317,
+ScriptureSlides,slideshow,ScriptureScene,0,0,1920,1080,,,,,
+ScriptureSlide1,image,ScriptureSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\scripture\john3_16.jpg
+ScriptureSlide2,image,ScriptureSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\scripture\psalm23.jpg
+PostService,scene,,0,0,1920,1080,,,,,
+PostServiceBG,image,PostService,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\preservice_bg.jpg
+PostServiceTitle,title,PostService,100,200,1720,160,Thank You for Worshipping With Us,Arial,80,#FFFFFF,
+NextServiceInfo,title,PostService,360,430,1200,120,Join us next Sunday at 10:00 AM,Arial,54,#CCCCCC,
+PostInfoBar,scrollText,PostService,0,1010,1920,70,God bless you - See you next Sunday - Visit clc.org for events and online giving,Arial,28,#FFFFFF,

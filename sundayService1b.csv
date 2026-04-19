@@ -1,0 +1,53 @@
+name,type,parent,x,y,width,height,text,font,font_size,font_color,file_path,visible,locked
+** AudioScene,scene,,0,0,1920,1080,,,,,,,
+Lapel mic 1,image,** AudioScene,0,0,0,0,,,,,,0,0
+pulpit mic,image,** AudioScene,0,0,0,0,,,,,,1,0
+** CameraScene,scene,,0,0,1920,1080,,,,,,,
+Bell Cam,image,** CameraScene,0,0,0,0,,,,,,0,0
+Choir Cam,image,** CameraScene,0,0,0,0,,,,,,0,0
+Pulpit Cam,image,** CameraScene,0,0,0,0,,,,,,1,0
+** EmergencySlides,scene,,0,0,1920,1080,,,,,,,
+BRBSlide,image,** EmergencySlides,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\emergency\brb.jpg,1,0
+ServiceInterruptedSlide,image,** EmergencySlides,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\emergency\service_interrupted.jpg,0,0
+TechnicalDifficultiesSlide,image,** EmergencySlides,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\emergency\technical_difficulties.jpg,0,0
+Anthem,scene,,0,0,1920,1080,,,,,,,
+** CameraScene,image,Anthem,0,0,0,0,,,,,,1,0
+** AudioScene,image,Anthem,0,0,0,0,,,,,,1,0
+Bell Performance,scene,,0,0,1920,1080,,,,,,,
+,,,,,,,,,,,,,
+** CameraScene,image,Bell Performance,0,0,0,0,,,,,,1,0
+** AudioScene,image,Bell Performance,0,0,0,0,,,,,,1,0
+MainWorship,scene,,0,0,1920,1080,,,,,,,
+MainBG,image,MainWorship,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\background.jpg,0,0
+SpeakerNamePM,title,MainWorship,40,927,920,80,Pastor Manuel Borbon,Arial,40,#FFFF00,,0,0
+SpeakerNamePE,title,MainWorship,40,927,920,80,Pastor Elena,Arial,40,#FFFF00,,0,0
+** CameraScene,image,MainWorship,0,0,0,0,,,,,,1,0
+** AudioScene,image,MainWorship,0,0,0,0,,,,,,1,0
+PostService,scene,,0,0,1920,1080,,,,,,,
+PostServiceBG,image,PostService,0,67,1920,1080,,,,,C:\sandbox\SanctuarySync\media\preservice_bg.jpg,1,0
+NextServiceInfo,title,PostService,356,425,1200,120,Join us next Sunday at 10:00 AM,Arial,54,#CCCCCC,,1,0
+PostInfoBar,scrollText,PostService,0,1010,1920,70,God bless you - See you next Sunday - Visit clc.org for events and online giving,Arial,28,#FFFFFF,,1,0
+PostServiceTitle,title,PostService,100,200,1720,160,Thank You for Worshipping With Us,Arial,80,#FFFFFF,,1,0
+Prelude,scene,,0,0,1920,1080,,,,,,,
+PreludeBG,image,Prelude,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\prelude_bg.jpg,1,0
+PreludeTitle,title,Prelude,100,30,1720,140,Sunday Morning Worship,Arial,80,#FFFFFF,,1,0
+PreludeSubtitle,title,Prelude,100,200,1720,100,April 20 2026,Arial,56,#CCCCCC,,1,0
+PreludeInfoBar,scrollText,Prelude,0,1010,1920,70,Please silence your mobile devices - Nursery available in Room 104 - Welcome visitors!,Arial,28,#FFFFFF,,1,0
+** CameraScene,image,Prelude,0,0,0,0,,,,,,1,0
+** AudioScene,image,Prelude,0,0,0,0,,,,,,1,0
+PreService,scene,,0,0,1920,1080,,,,,,,
+PreServiceBG,image,PreService,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\preservice_bg.jpg,1,0
+CountdownTitle,title,PreService,360,180,1200,160,Service Begins Soon,Arial,96,#FFFFFF,,1,0
+PreServiceSlides,slideshow,PreService,160,400,1600,520,,,,,,1,0
+PreServiceInfoBar,scrollText,PreService,0,1010,1920,70,Welcome to Sunday Worship - Service begins at 10:00 AM - Please silence your mobile devices,Arial,28,#FFFF00,,1,0
+** CameraScene,image,PreService,0,0,0,0,,,,,,1,0
+** AudioScene,image,PreService,0,0,0,0,,,,,,1,0
+ScriptureScene,scene,,0,0,1920,1080,,,,,,,
+ScriptureBG,image,ScriptureScene,0,0,1920,1080,,,,,C:\sandbox\SanctuarySync\media\parchment_bg.jpg,1,0
+VerseText,title,ScriptureScene,160,180,1600,640,For God so loved the world that he gave his one and only Son.,Georgia,54,#2C1810,,1,0
+VerseRef,title,ScriptureScene,160,840,1600,80,John 3:16 (NIV),Georgia,40,#5C3317,,1,0
+ScriptureSlides,slideshow,ScriptureScene,0,0,1920,1080,,,,,,1,0
+john3_16,image,ScriptureSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\scripture\john3_16.jpg,,
+psalm23,image,ScriptureSlides,0,0,0,0,,,,,C:\sandbox\SanctuarySync\media\scripture\psalm23.jpg,,
+** CameraScene,image,ScriptureScene,0,0,0,0,,,,,,1,0
+** AudioScene,image,ScriptureScene,0,0,0,0,,,,,,1,0

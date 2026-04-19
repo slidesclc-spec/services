@@ -1,0 +1,1635 @@
+{
+  "name": "Scene",
+  "current_scene": "MainWorship",
+  "current_program_scene": "MainWorship",
+  "current_transition": "Fade",
+  "transition_duration": 300,
+  "scene_order": [
+    {
+      "name": "MainWorship"
+    },
+    {
+      "name": "PreService"
+    },
+    {
+      "name": "ScriptureScene"
+    }
+  ],
+  "sources": [
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "MainWorship",
+      "uuid": "fbf8b124-4472-4e85-bb55-52304d40d7d6",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 5,
+        "items": [
+          {
+            "name": "Background",
+            "source_uuid": "0efad261-fb1a-410a-80d9-10babc6a50b1",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "ServiceTitle",
+            "source_uuid": "da089251-f5de-40d1-beb0-c61e8a946e42",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 100.0,
+              "y": 30.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1720.0,
+              "y": 120.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "SpeakerArea",
+            "source_uuid": "edc71f89-4daa-48b6-95f4-051a2a49a228",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 400.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 960.0,
+              "y": 680.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "AnnouncementSlides",
+            "source_uuid": "ace15f83-851a-4f4a-8373-3881a36aeecc",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 960.0,
+              "y": 400.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 960.0,
+              "y": 540.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "NewsTicker",
+            "source_uuid": "7e67ca79-a9be-477d-8ae0-4290e19ddcbc",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 1010.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 70.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "PreService",
+      "uuid": "9e95bca8-3662-4a44-8741-6e6fc033dbcc",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 4,
+        "items": [
+          {
+            "name": "PreServiceBG",
+            "source_uuid": "bfe3a634-90eb-4298-9783-cab5a489726a",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "CountdownTitle",
+            "source_uuid": "f0b4f456-569b-4939-8506-6abe47f63947",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 360.0,
+              "y": 200.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1200.0,
+              "y": 140.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "LogoGroup",
+            "source_uuid": "fd1c892f-49e5-4f26-88f1-7de0fa9cca27",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 760.0,
+              "y": 450.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 400.0,
+              "y": 300.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "InfoBar",
+            "source_uuid": "5b984f79-eceb-4cb2-8d65-fc797f2280ae",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 1010.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 70.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "ScriptureScene",
+      "uuid": "8d0b04b5-a018-4db2-baa8-784e0ab68215",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 4,
+        "items": [
+          {
+            "name": "ScriptureBG",
+            "source_uuid": "279eebc3-d9b6-41b7-902b-c617570898a1",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "VerseText",
+            "source_uuid": "f6f7d06b-78c2-4ce7-9b8e-f13ea6852c49",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 160.0,
+              "y": 200.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1600.0,
+              "y": 600.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "VerseRef",
+            "source_uuid": "49f59651-2456-4fe7-a1f1-19ddf0a8606e",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 160.0,
+              "y": 820.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1600.0,
+              "y": 80.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "ScriptureSlides",
+            "source_uuid": "7530b49b-62e4-465a-8deb-ae1c7dfbcced",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "Background",
+      "uuid": "0efad261-fb1a-410a-80d9-10babc6a50b1",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\busyindicator-icon16.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus",
+      "name": "ServiceTitle",
+      "uuid": "da089251-f5de-40d1-beb0-c61e8a946e42",
+      "settings": {
+        "text": "CLC Live Stream",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 72,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "extents_wrap": true,
+        "extents_cx": 1720,
+        "extents_cy": 120,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "CameraFeed",
+      "uuid": "970901bc-664d-48ff-a5e6-6864aae97561",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\busyindicator-icon16.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus",
+      "name": "SpeakerName",
+      "uuid": "ecf0197e-9ff9-49d8-b49f-b83b2a5a0273",
+      "settings": {
+        "text": "Pastor John Smith",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 40,
+          "style": "Regular"
+        },
+        "color": 4278255615,
+        "outline": false,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "extents_wrap": true,
+        "extents_cx": 920,
+        "extents_cy": 80,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "group",
+      "versioned_id": "group",
+      "name": "SpeakerArea",
+      "uuid": "edc71f89-4daa-48b6-95f4-051a2a49a228",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 2,
+        "items": [
+          {
+            "name": "CameraFeed",
+            "source_uuid": "970901bc-664d-48ff-a5e6-6864aae97561",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 960.0,
+              "y": 540.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "SpeakerName",
+            "source_uuid": "ecf0197e-9ff9-49d8-b49f-b83b2a5a0273",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 20.0,
+              "y": 560.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 920.0,
+              "y": 80.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "Slide_Welcome",
+      "uuid": "584d3c70-e5e8-4ac4-bcf8-11e8c5ab2d77",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\busyindicator-icon@2x.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "Slide_Events",
+      "uuid": "d0b569ad-03fd-478a-8f0f-209d70b98017",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\busyindicator-icon16.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "Slide_Giving",
+      "uuid": "c72990d7-b415-40f4-90c3-6ebbea7a9eab",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\combobox-icon16.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "slideshow",
+      "versioned_id": "slideshow",
+      "name": "AnnouncementSlides",
+      "uuid": "ace15f83-851a-4f4a-8373-3881a36aeecc",
+      "settings": {
+        "files": [
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\busyindicator-icon@2x.png"
+          },
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\busyindicator-icon16.png"
+          },
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\combobox-icon16.png"
+          }
+        ],
+        "slide_time": 5000,
+        "transition_speed": 300,
+        "playback_behavior": "always_play"
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "SlideShow.PlayPause": [],
+        "SlideShow.Restart": [],
+        "SlideShow.Stop": [],
+        "SlideShow.NextSlide": [],
+        "SlideShow.PreviousSlide": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus",
+      "name": "NewsTicker",
+      "uuid": "7e67ca79-a9be-477d-8ae0-4290e19ddcbc",
+      "settings": {
+        "text": "Welcome to CLC Worship Service - Visit clc.org for upcoming events",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 32,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "extents_wrap": true,
+        "extents_cx": 1920,
+        "extents_cy": 70,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [
+        {
+          "id": "scroll_filter",
+          "versioned_id": "scroll_filter",
+          "name": "Scroll",
+          "uuid": "60d19c72-49db-4456-8764-79c97b6598d2",
+          "enabled": true,
+          "settings": {
+            "speed_x": 200,
+            "speed_y": 0,
+            "loop": true,
+            "limit_cx": false,
+            "limit_cy": false,
+            "cx": 1920.0,
+            "cy": 70.0
+          }
+        }
+      ],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "PreServiceBG",
+      "uuid": "bfe3a634-90eb-4298-9783-cab5a489726a",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\combobox-icon16.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus",
+      "name": "CountdownTitle",
+      "uuid": "f0b4f456-569b-4939-8506-6abe47f63947",
+      "settings": {
+        "text": "Service Begins Soon",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 96,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "extents_wrap": true,
+        "extents_cx": 1200,
+        "extents_cy": 140,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "ChurchLogo",
+      "uuid": "a03b6e11-f7e3-4d5d-8293-d57d56b0e0b7",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\combobox-icon.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus",
+      "name": "Tagline",
+      "uuid": "3f5dc7a8-9983-49da-8fba-9c13a9cc5e00",
+      "settings": {
+        "text": "Connecting Life to Christ",
+        "font": {
+          "face": "Calibri",
+          "flags": 0,
+          "size": 36,
+          "style": "Regular"
+        },
+        "color": 4291611852,
+        "outline": false,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "extents_wrap": true,
+        "extents_cx": 400,
+        "extents_cy": 80,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "group",
+      "versioned_id": "group",
+      "name": "LogoGroup",
+      "uuid": "fd1c892f-49e5-4f26-88f1-7de0fa9cca27",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 2,
+        "items": [
+          {
+            "name": "ChurchLogo",
+            "source_uuid": "a03b6e11-f7e3-4d5d-8293-d57d56b0e0b7",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 50.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 300.0,
+              "y": 200.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "Tagline",
+            "source_uuid": "3f5dc7a8-9983-49da-8fba-9c13a9cc5e00",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 210.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 400.0,
+              "y": 80.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus",
+      "name": "InfoBar",
+      "uuid": "5b984f79-eceb-4cb2-8d65-fc797f2280ae",
+      "settings": {
+        "text": "Doors open at 9:00 AM - Nursery available - WiFi: CLCGuest",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 28,
+          "style": "Regular"
+        },
+        "color": 4278255615,
+        "outline": false,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "extents_wrap": true,
+        "extents_cx": 1920,
+        "extents_cy": 70,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [
+        {
+          "id": "scroll_filter",
+          "versioned_id": "scroll_filter",
+          "name": "Scroll",
+          "uuid": "00680289-4c7c-4513-9408-22457bf57bbd",
+          "enabled": true,
+          "settings": {
+            "speed_x": 200,
+            "speed_y": 0,
+            "loop": true,
+            "limit_cx": false,
+            "limit_cy": false,
+            "cx": 1920.0,
+            "cy": 70.0
+          }
+        }
+      ],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "ScriptureBG",
+      "uuid": "279eebc3-d9b6-41b7-902b-c617570898a1",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\checkbox-icon16.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus",
+      "name": "VerseText",
+      "uuid": "f6f7d06b-78c2-4ce7-9b8e-f13ea6852c49",
+      "settings": {
+        "text": "For God so loved the world - John 3:16",
+        "font": {
+          "face": "Georgia",
+          "flags": 0,
+          "size": 54,
+          "style": "Regular"
+        },
+        "color": 4279244844,
+        "outline": false,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "extents_wrap": true,
+        "extents_cx": 1600,
+        "extents_cy": 600,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus",
+      "name": "VerseRef",
+      "uuid": "49f59651-2456-4fe7-a1f1-19ddf0a8606e",
+      "settings": {
+        "text": "John 3:16 (NIV)",
+        "font": {
+          "face": "Georgia",
+          "flags": 0,
+          "size": 40,
+          "style": "Regular"
+        },
+        "color": 4279710556,
+        "outline": false,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "extents_wrap": true,
+        "extents_cx": 1600,
+        "extents_cy": 80,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "ScriptureSlide1",
+      "uuid": "f2c97699-9b80-4211-8e40-6254286e143c",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\button-icon16.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "ScriptureSlide2",
+      "uuid": "f9b0e855-1349-4296-bc21-e6c1ce225b92",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\busyindicator-icon@2x.png",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "slideshow",
+      "versioned_id": "slideshow",
+      "name": "ScriptureSlides",
+      "uuid": "7530b49b-62e4-465a-8deb-ae1c7dfbcced",
+      "settings": {
+        "files": [
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\button-icon16.png"
+          },
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\qml\\QtQuick\\Controls\\designer\\images\\busyindicator-icon@2x.png"
+          }
+        ],
+        "slide_time": 5000,
+        "transition_speed": 300,
+        "playback_behavior": "always_play"
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "SlideShow.PlayPause": [],
+        "SlideShow.Restart": [],
+        "SlideShow.Stop": [],
+        "SlideShow.NextSlide": [],
+        "SlideShow.PreviousSlide": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    }
+  ],
+  "groups": [],
+  "modules": {},
+  "quick_transitions": [],
+  "transitions": [],
+  "saved_projectors": [],
+  "scaling_enabled": false,
+  "scaling_level": 1,
+  "scaling_off_x": 0.0,
+  "scaling_off_y": 0.0,
+  "preview_locked": false,
+  "virtual-camera": {}
+}

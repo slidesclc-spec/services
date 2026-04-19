@@ -1,0 +1,3007 @@
+{
+  "name": "sundayService1",
+  "current_scene": "CameraScene",
+  "current_program_scene": "CameraScene",
+  "current_transition": "Fade",
+  "transition_duration": 300,
+  "scene_order": [
+    {
+      "name": "CameraScene"
+    },
+    {
+      "name": "AudioScene"
+    },
+    {
+      "name": "EmergencySlides"
+    },
+    {
+      "name": "PreService"
+    },
+    {
+      "name": "Prelude"
+    },
+    {
+      "name": "MainWorship"
+    },
+    {
+      "name": "ScriptureScene"
+    },
+    {
+      "name": "PostService"
+    }
+  ],
+  "sources": [
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "CameraScene",
+      "uuid": "a4033caa-1190-4be6-aa1a-6288072edb7b",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 3,
+        "items": [
+          {
+            "name": "CameraMain",
+            "source_uuid": "8c9cf54f-966a-4217-b5e9-6205cae6ab4a",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "CameraPulpit",
+            "source_uuid": "d3284f81-7ec6-4fd2-bda9-aef5c652216a",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "CameraChoir",
+            "source_uuid": "e59f5289-64ab-406d-8d39-7fe4b149d087",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "AudioScene",
+      "uuid": "be3f7a4d-ce13-4d51-9abe-5ada7ddd195f",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 2,
+        "items": [
+          {
+            "name": "AudioBG",
+            "source_uuid": "97f60713-f0e8-467a-9530-d335c9286824",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "AudioLabel",
+            "source_uuid": "c89fd583-3033-4b5f-a024-1a64edb6475b",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 760.0,
+              "y": 490.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 400.0,
+              "y": 100.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "EmergencySlides",
+      "uuid": "a0d56d0b-a1d3-43a0-9ef7-3216c6da72ff",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 3,
+        "items": [
+          {
+            "name": "BRBSlide",
+            "source_uuid": "d262e3f9-bb83-488a-8b13-2f27a0971135",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "ServiceInterruptedSlide",
+            "source_uuid": "b86e4650-ae7b-4044-8f57-efacd9c9e586",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "TechnicalDifficultiesSlide",
+            "source_uuid": "341b334d-8778-4745-866b-9a34d89191fe",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "PreService",
+      "uuid": "940bbc39-336b-4fd2-8ed2-67741fbed6e3",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 4,
+        "items": [
+          {
+            "name": "PreServiceBG",
+            "source_uuid": "9e013afc-c691-4c8e-9e0a-7c8e2565aded",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "CountdownTitle",
+            "source_uuid": "3a4d4920-a8d5-4a53-a119-ad8afc74ff7d",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 360.0,
+              "y": 180.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1200.0,
+              "y": 160.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "PreServiceSlides",
+            "source_uuid": "0d08f52d-9c0f-47b8-818e-cf2da1945833",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 160.0,
+              "y": 400.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1600.0,
+              "y": 520.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "PreServiceInfoBar",
+            "source_uuid": "0a0fbdc9-2a7d-4e3e-b271-e75179f8fb11",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 1010.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 70.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "Prelude",
+      "uuid": "851d36ee-69e3-4619-9651-ae09082ffe76",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 4,
+        "items": [
+          {
+            "name": "PreludeBG",
+            "source_uuid": "be22fa05-3c4d-494f-aeb5-b49a70f78d72",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "PreludeTitle",
+            "source_uuid": "f4245781-4a9f-4e93-904d-68ab6d752490",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 100.0,
+              "y": 30.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1720.0,
+              "y": 140.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "PreludeSubtitle",
+            "source_uuid": "06e98d4c-31f9-4653-b47a-212bc78e8382",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 100.0,
+              "y": 200.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1720.0,
+              "y": 100.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "PreludeInfoBar",
+            "source_uuid": "7b045135-7633-47c7-b1f4-1e7b5831214f",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 1010.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 70.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "MainWorship",
+      "uuid": "406109a7-1243-48d6-a074-f46b11b048a3",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 5,
+        "items": [
+          {
+            "name": "MainBG",
+            "source_uuid": "d01a36fd-960c-4829-8e5d-2a70b4f89fc8",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "ServiceTitle",
+            "source_uuid": "26ee3d29-0166-46d1-bd13-ce5916b19802",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 100.0,
+              "y": 30.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1720.0,
+              "y": 120.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "SpeakerArea",
+            "source_uuid": "e7be1e52-aa3e-4ba7-9ed5-9bd8bd243b28",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 380.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 960.0,
+              "y": 680.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "AnnouncementSlides",
+            "source_uuid": "3b7e30ad-be11-4aaa-90ac-3912f5123d70",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 960.0,
+              "y": 380.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 960.0,
+              "y": 560.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "NewsTicker",
+            "source_uuid": "bbe8a066-75af-48b3-bebb-07aaab3f1d14",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 1010.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 70.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "ScriptureScene",
+      "uuid": "2a1f31a3-30a4-4c20-b58d-87a285d240b7",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 4,
+        "items": [
+          {
+            "name": "ScriptureBG",
+            "source_uuid": "49ef1c03-fc63-4599-af1e-a79bd1387216",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "VerseText",
+            "source_uuid": "3f6a6192-7966-443e-882d-8bb628960d1a",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 160.0,
+              "y": 180.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1600.0,
+              "y": 640.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "VerseRef",
+            "source_uuid": "afdbd8b1-0ea5-4128-8e0c-8780b4899b2b",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 160.0,
+              "y": 840.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1600.0,
+              "y": 80.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "ScriptureSlides",
+            "source_uuid": "f5944ec8-ce20-42e8-a0b2-058b7ec2791a",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "scene",
+      "versioned_id": "scene",
+      "name": "PostService",
+      "uuid": "b8446cb8-5bf9-4792-8092-dfcd9886562f",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 4,
+        "items": [
+          {
+            "name": "PostServiceBG",
+            "source_uuid": "c2ab5b78-1d56-4410-a717-5fa57a6027a3",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "PostServiceTitle",
+            "source_uuid": "38c9cdc2-7cf4-4e6d-a5b7-0c84e7b9ca6c",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 100.0,
+              "y": 200.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1720.0,
+              "y": 160.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "NextServiceInfo",
+            "source_uuid": "aacee982-6839-45c3-9a8a-85d900968101",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 360.0,
+              "y": 430.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1200.0,
+              "y": 120.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "PostInfoBar",
+            "source_uuid": "96ba65f5-9171-4448-a923-c7de906f1239",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 1010.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 1920.0,
+              "y": 70.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "CameraMain",
+      "uuid": "8c9cf54f-966a-4217-b5e9-6205cae6ab4a",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\camera_main.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "CameraPulpit",
+      "uuid": "d3284f81-7ec6-4fd2-bda9-aef5c652216a",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\camera_pulpit.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "CameraChoir",
+      "uuid": "e59f5289-64ab-406d-8d39-7fe4b149d087",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\camera_choir.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "AudioBG",
+      "uuid": "97f60713-f0e8-467a-9530-d335c9286824",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\prelude_bg.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "AudioLabel",
+      "uuid": "c89fd583-3033-4b5f-a024-1a64edb6475b",
+      "settings": {
+        "text": "Audio Only",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 48,
+          "style": "Regular"
+        },
+        "color": 4287137928,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 400,
+        "extents_cy": 100,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "BRBSlide",
+      "uuid": "d262e3f9-bb83-488a-8b13-2f27a0971135",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\emergency\\brb.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "ServiceInterruptedSlide",
+      "uuid": "b86e4650-ae7b-4044-8f57-efacd9c9e586",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\emergency\\service_interrupted.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "TechnicalDifficultiesSlide",
+      "uuid": "341b334d-8778-4745-866b-9a34d89191fe",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\emergency\\technical_difficulties.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "PreServiceBG",
+      "uuid": "9e013afc-c691-4c8e-9e0a-7c8e2565aded",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\preservice_bg.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "CountdownTitle",
+      "uuid": "3a4d4920-a8d5-4a53-a119-ad8afc74ff7d",
+      "settings": {
+        "text": "Service Begins Soon",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 96,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1200,
+        "extents_cy": 160,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "slideshow",
+      "versioned_id": "slideshow",
+      "name": "PreServiceSlides",
+      "uuid": "0d08f52d-9c0f-47b8-818e-cf2da1945833",
+      "settings": {
+        "files": [],
+        "slide_time": 5000,
+        "transition_speed": 300,
+        "playback_behavior": "always_play"
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "SlideShow.PlayPause": [],
+        "SlideShow.Restart": [],
+        "SlideShow.Stop": [],
+        "SlideShow.NextSlide": [],
+        "SlideShow.PreviousSlide": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "slide_welcome",
+      "uuid": "5087a114-c7f1-49aa-bab2-814a4429fe73",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\slides\\slide_welcome.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "slide_events",
+      "uuid": "6effc723-1f02-4bdd-b02d-6d795011e0de",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\slides\\slide_events.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "slide_giving",
+      "uuid": "579a43cc-4863-4257-a243-c2efcac1fc01",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\slides\\slide_giving.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "PreServiceInfoBar",
+      "uuid": "0a0fbdc9-2a7d-4e3e-b271-e75179f8fb11",
+      "settings": {
+        "text": "Welcome to Sunday Worship - Service begins at 10:00 AM - Please silence your mobile devices",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 28,
+          "style": "Regular"
+        },
+        "color": 4278255615,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1920,
+        "extents_cy": 70,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [
+        {
+          "id": "scroll_filter",
+          "versioned_id": "scroll_filter",
+          "name": "Scroll",
+          "uuid": "94735fb1-9dbf-4f68-86aa-a154c0d5efef",
+          "enabled": true,
+          "settings": {
+            "speed_x": 200,
+            "speed_y": 0,
+            "loop": true,
+            "limit_cx": false,
+            "limit_cy": false,
+            "cx": 1920.0,
+            "cy": 70.0
+          }
+        }
+      ],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "PreludeBG",
+      "uuid": "be22fa05-3c4d-494f-aeb5-b49a70f78d72",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\prelude_bg.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "PreludeTitle",
+      "uuid": "f4245781-4a9f-4e93-904d-68ab6d752490",
+      "settings": {
+        "text": "Sunday Morning Worship",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 80,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1720,
+        "extents_cy": 140,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "PreludeSubtitle",
+      "uuid": "06e98d4c-31f9-4653-b47a-212bc78e8382",
+      "settings": {
+        "text": "April 20 2026",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 56,
+          "style": "Regular"
+        },
+        "color": 4291611852,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1720,
+        "extents_cy": 100,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "PreludeInfoBar",
+      "uuid": "7b045135-7633-47c7-b1f4-1e7b5831214f",
+      "settings": {
+        "text": "Please silence your mobile devices - Nursery available in Room 104 - Welcome visitors!",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 28,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1920,
+        "extents_cy": 70,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [
+        {
+          "id": "scroll_filter",
+          "versioned_id": "scroll_filter",
+          "name": "Scroll",
+          "uuid": "b0857ff1-dd83-4248-9817-c22d8db78732",
+          "enabled": true,
+          "settings": {
+            "speed_x": 200,
+            "speed_y": 0,
+            "loop": true,
+            "limit_cx": false,
+            "limit_cy": false,
+            "cx": 1920.0,
+            "cy": 70.0
+          }
+        }
+      ],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "MainBG",
+      "uuid": "d01a36fd-960c-4829-8e5d-2a70b4f89fc8",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\background.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "ServiceTitle",
+      "uuid": "26ee3d29-0166-46d1-bd13-ce5916b19802",
+      "settings": {
+        "text": "Sunday Morning Worship",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 72,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1720,
+        "extents_cy": 120,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "CameraFeed",
+      "uuid": "62512fa1-6945-458a-965d-5573fba10025",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\camera_placeholder.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "SpeakerName",
+      "uuid": "81e43b82-b745-4129-97e4-870a33b7b1cc",
+      "settings": {
+        "text": "Pastor John Smith",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 40,
+          "style": "Regular"
+        },
+        "color": 4278255615,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 920,
+        "extents_cy": 80,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "group",
+      "versioned_id": "group",
+      "name": "SpeakerArea",
+      "uuid": "e7be1e52-aa3e-4ba7-9ed5-9bd8bd243b28",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 2,
+        "items": [
+          {
+            "name": "CameraFeed",
+            "source_uuid": "62512fa1-6945-458a-965d-5573fba10025",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 960.0,
+              "y": 540.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "SpeakerName",
+            "source_uuid": "81e43b82-b745-4129-97e4-870a33b7b1cc",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "pos": {
+              "x": 20.0,
+              "y": 560.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "bounds": {
+              "x": 920.0,
+              "y": 80.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "slideshow",
+      "versioned_id": "slideshow",
+      "name": "AnnouncementSlides",
+      "uuid": "3b7e30ad-be11-4aaa-90ac-3912f5123d70",
+      "settings": {
+        "files": [
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\media\\slides\\slide_welcome.jpg"
+          },
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\media\\slides\\slide_events.jpg"
+          },
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\media\\slides\\slide_giving.jpg"
+          }
+        ],
+        "slide_time": 5000,
+        "transition_speed": 300,
+        "playback_behavior": "always_play"
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "SlideShow.PlayPause": [],
+        "SlideShow.Restart": [],
+        "SlideShow.Stop": [],
+        "SlideShow.NextSlide": [],
+        "SlideShow.PreviousSlide": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "NewsTicker",
+      "uuid": "bbe8a066-75af-48b3-bebb-07aaab3f1d14",
+      "settings": {
+        "text": "Welcome to CLC Sunday Worship - Visit clc.org for upcoming events - Online giving available",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 32,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1920,
+        "extents_cy": 70,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [
+        {
+          "id": "scroll_filter",
+          "versioned_id": "scroll_filter",
+          "name": "Scroll",
+          "uuid": "efa21a21-88ed-4205-87b6-ffe8a1bf06e6",
+          "enabled": true,
+          "settings": {
+            "speed_x": 200,
+            "speed_y": 0,
+            "loop": true,
+            "limit_cx": false,
+            "limit_cy": false,
+            "cx": 1920.0,
+            "cy": 70.0
+          }
+        }
+      ],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "ScriptureBG",
+      "uuid": "49ef1c03-fc63-4599-af1e-a79bd1387216",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\parchment_bg.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "VerseText",
+      "uuid": "3f6a6192-7966-443e-882d-8bb628960d1a",
+      "settings": {
+        "text": "For God so loved the world that he gave his one and only Son.",
+        "font": {
+          "face": "Georgia",
+          "flags": 0,
+          "size": 54,
+          "style": "Regular"
+        },
+        "color": 4279244844,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1600,
+        "extents_cy": 640,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "VerseRef",
+      "uuid": "afdbd8b1-0ea5-4128-8e0c-8780b4899b2b",
+      "settings": {
+        "text": "John 3:16 (NIV)",
+        "font": {
+          "face": "Georgia",
+          "flags": 0,
+          "size": 40,
+          "style": "Regular"
+        },
+        "color": 4279710556,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1600,
+        "extents_cy": 80,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "john3_16",
+      "uuid": "cfea29f2-28d4-423c-bccb-02a96cd7baa6",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\scripture\\john3_16.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "psalm23",
+      "uuid": "0931ff02-5ef0-4f59-a4be-7b4c48f191d4",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\scripture\\psalm23.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "slideshow",
+      "versioned_id": "slideshow",
+      "name": "ScriptureSlides",
+      "uuid": "f5944ec8-ce20-42e8-a0b2-058b7ec2791a",
+      "settings": {
+        "files": [
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\media\\scripture\\john3_16.jpg"
+          },
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "C:\\sandbox\\SanctuarySync\\media\\scripture\\psalm23.jpg"
+          }
+        ],
+        "slide_time": 5000,
+        "transition_speed": 300,
+        "playback_behavior": "always_play"
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "SlideShow.PlayPause": [],
+        "SlideShow.Restart": [],
+        "SlideShow.Stop": [],
+        "SlideShow.NextSlide": [],
+        "SlideShow.PreviousSlide": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "name": "PostServiceBG",
+      "uuid": "c2ab5b78-1d56-4410-a717-5fa57a6027a3",
+      "settings": {
+        "file": "C:\\sandbox\\SanctuarySync\\media\\preservice_bg.jpg",
+        "linear_alpha": false,
+        "unload": false
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "PostServiceTitle",
+      "uuid": "38c9cdc2-7cf4-4e6d-a5b7-0c84e7b9ca6c",
+      "settings": {
+        "text": "Thank You for Worshipping With Us",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 80,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1720,
+        "extents_cy": 160,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "NextServiceInfo",
+      "uuid": "aacee982-6839-45c3-9a8a-85d900968101",
+      "settings": {
+        "text": "Join us next Sunday at 10:00 AM",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 54,
+          "style": "Regular"
+        },
+        "color": 4291611852,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1200,
+        "extents_cy": 120,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503447555,
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "name": "PostInfoBar",
+      "uuid": "96ba65f5-9171-4448-a923-c7de906f1239",
+      "settings": {
+        "text": "God bless you - See you next Sunday - Visit clc.org for events and online giving",
+        "font": {
+          "face": "Arial",
+          "flags": 0,
+          "size": 28,
+          "style": "Regular"
+        },
+        "color": 4294967295,
+        "outline": false,
+        "outline_size": 3,
+        "outline_color": 4278190080,
+        "outline_opacity": 100,
+        "drop_shadow": false,
+        "word_wrap": true,
+        "align": "left",
+        "valign": "top",
+        "transform": 0,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90.0,
+        "chatlog_lines": 6,
+        "extents_wrap": true,
+        "extents_cx": 1920,
+        "extents_cy": 70,
+        "antialiasing": true,
+        "opacity": 100,
+        "bk_color": 0,
+        "bk_opacity": 0
+      },
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "flags": 0,
+      "filters": [
+        {
+          "id": "scroll_filter",
+          "versioned_id": "scroll_filter",
+          "name": "Scroll",
+          "uuid": "c4c76e32-a9f0-479b-b347-940c352dbf6d",
+          "enabled": true,
+          "settings": {
+            "speed_x": 200,
+            "speed_y": 0,
+            "loop": true,
+            "limit_cx": false,
+            "limit_cy": false,
+            "cx": 1920.0,
+            "cy": 70.0
+          }
+        }
+      ],
+      "mixers": 0,
+      "monitoring_type": 0,
+      "sync": 0,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "private_settings": {}
+    }
+  ],
+  "groups": [],
+  "modules": {},
+  "AuxAudioDevice1": {},
+  "quick_transitions": [],
+  "transitions": [],
+  "saved_projectors": [],
+  "scaling_enabled": false,
+  "scaling_level": 1,
+  "scaling_off_x": 0.0,
+  "scaling_off_y": 0.0,
+  "preview_locked": false,
+  "virtual-camera": {}
+}
